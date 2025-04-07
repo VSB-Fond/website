@@ -1,0 +1,125 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VSB-SBN - Фонд Владислава Славянского Брата</title>
+    <style>
+        /* Используем тот же стиль, что и в index.html */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+        header img.logo {
+            width: 50px;
+            height: 50px;
+            border-radius: 5px;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+        nav {
+            display: flex;
+            justify-content: space-around;
+            background-color: #444;
+            padding: 10px;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        main {
+            padding: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+
+
+        /* Стили для кнопки */
+
+        .google-form-button {
+
+            display: inline-block;
+
+            background-color: #4285F4; /* Цвет кнопки Google */
+
+            color: #fff;
+
+            text-decoration: none;
+
+            font-size: 18px;
+
+            font-weight: bold;
+
+            padding: 15px 30px;
+
+            border-radius: 5px;
+
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+        }
+
+        .google-form-button:hover {
+
+            transform: translateY(-3px);
+
+            box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+
+        }
+    </style>
+</head>
+<body>
+    <!-- Шапка с логотипом -->
+    <header>
+        <a href="index.html">
+            <img src="images/logo.png" alt="Логотип Фонда Владислава Славянского Брата" class="logo">
+        </a>
+        <h1>Фонд Владислава Славянского Брата</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Главная</a>
+        <a href="about.html">О нас</a>
+        <a href="projects.html">Проекты</a>
+        <a href="contacts.html">Контакты</a>
+    </nav>
+    <main>
+        <h2>VSB-SBN (идентификатор книжного произведения)</h2>
+        <p>Этот проект создан для регистрации уникальных идентификаторов книжных произведений в Гугл форме. Он помогает авторам защитить свои права на произведения.</p>
+        <p>Для регистрации перейдите по ссылке:</p>
+
+        <!-- Кнопка для Гугл формы -->
+
+        <a href="https://forms.gle/example" target="_blank" class="google-form-button">
+
+            Перейти к форме регистрации
+
+        </a>
+    </main>
+    <footer>
+        &copy; 2025 Фонд Владислава Славянского Брата
+    </footer>
+</body>
+</html>

@@ -1,0 +1,154 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Фонд Владислава Славянского Брата</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            display: flex;
+            align-items: center;
+            gap: 15px; /* Расстояние между логотипом и текстом */
+        }
+        header img.logo {
+            width: 50px; /* Размер логотипа */
+            height: 50px;
+            border-radius: 5px; /* Если логотип прямоугольный, добавляем скругление углов */
+        }
+        header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+        nav {
+            display: flex;
+            justify-content: space-around;
+            background-color: #444;
+            padding: 10px;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        main {
+            padding: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        /* Преимущества */
+        .advantages {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+        .advantage-card {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 20px;
+            width: 350px; /* Ширина карточек */
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .advantage-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+        }
+        .advantage-card img {
+            max-width: 100%; /* Изображение адаптируется под ширину контейнера */
+            height: auto; /* Сохраняем пропорции */
+            margin-bottom: 10px;
+            border-radius: 10px; /* Добавляем скругление углов */
+        }
+        .advantage-card h3 {
+            margin: 0 0 10px;
+            font-size: 18px;
+        }
+        .advantage-card p {
+            font-size: 14px;
+            color: #555;
+        }
+
+        /* Цитата */
+        .quote {
+            background-color: #eef;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            font-style: italic;
+            color: #333;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Шапка с логотипом -->
+    <header>
+        <a href="index.html">
+            <img src="images/logo.png" alt="Логотип Фонда Владислава Славянского Брата" class="logo">
+        </a>
+        <h1>Фонд Владислава Славянского Брата</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Главная</a>
+        <a href="about.html">О нас</a>
+        <a href="projects.html">Проекты</a>
+        <a href="contacts.html">Контакты</a>
+    </nav>
+
+    <main>
+        <h2>Добро пожаловать!</h2>
+        <p>Мы поддерживаем молодые стартапы и помогаем им реализовать свои идеи. Присоединяйтесь к нам!</p>
+
+        <!-- Преимущества фонда -->
+        <h3>Наши преимущества</h3>
+        <div class="advantages">
+            <div class="advantage-card">
+                <img src="images/pzy.png" alt="Иконка наставничества">
+                <h3>Профессиональное наставничество</h3>
+                <p>Мы предоставляем доступ к опытным наставникам, которые помогут вам развить ваш бизнес.</p>
+            </div>
+            <div class="advantage-card">
+                <img src="images/funding-icon.png" alt="Иконка финансирования">
+                <h3>Финансовая поддержка</h3>
+                <p>Мы инвестируем в перспективные проекты, чтобы помочь им выйти на новый уровень.</p>
+            </div>
+            <div class="advantage-card">
+                <img src="images/comandoss.png" alt="Иконка сообщества">
+                <h3>Сильное сообщество</h3>
+                <p>Присоединяйтесь к нашей сети предпринимателей и экспертов для обмена опытом.</p>
+            </div>
+        </div>
+
+        <!-- Цитата -->
+        <div class="quote">
+            <p>"Успех начинается с маленькой идеи, которая получает большую поддержку."</p>
+            <p><strong>— Владислав Славянский</strong></p>
+        </div>
+    </main>
+    <footer>
+        &copy; 2025 Фонд Владислава Славянского Брата
+    </footer>
+</body>
+</html>

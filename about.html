@@ -1,0 +1,113 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>О нас - Фонд Владислава Славянского Брата</title>
+    <style>
+        /* Используем тот же стиль, что и в index.html */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+        header img.logo {
+            width: 50px;
+            height: 50px;
+            border-radius: 5px;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+        nav {
+            display: flex;
+            justify-content: space-around;
+            background-color: #444;
+            padding: 10px;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        main {
+            padding: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        /* Стили для блока с фото и текстом */
+        .bio-container {
+            display: flex;
+            align-items: flex-start;
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+        .bio-image {
+            flex-shrink: 0;
+            width: 150px;
+            height: 150px;
+            border-radius: 10px;
+            object-fit: cover;
+        }
+        .bio-text {
+            flex-grow: 1;
+        }
+        .bio-text h3 {
+            margin-top: 0;
+        }
+    </style>
+</head>
+<body>
+    <!-- Шапка с логотипом -->
+    <header>
+        <a href="index.html">
+            <img src="images/logo.png" alt="Логотип Фонда Владислава Славянского Брата" class="logo">
+        </a>
+        <h1>Фонд Владислава Славянского Брата</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Главная</a>
+        <a href="about.html">О нас</a>
+        <a href="projects.html">Проекты</a>
+        <a href="contacts.html">Контакты</a>
+    </nav>
+
+    <main>
+        <h2>О нас</h2>
+
+        <!-- Блок с фото и биографией -->
+        <div class="bio-container">
+            <img src="images/vladislav.jpg" alt="Владислав Славянский" class="bio-image">
+            <div class="bio-text">
+                <h3>Биография Владислава Славянского</h3>
+                <p>Владислав Славянский — известный предприниматель и меценат, который всегда стремился поддерживать молодых талантов. Его карьера началась с небольшого стартапа, который вырос в крупную компанию.</p>
+            </div>
+        </div>
+
+        <h3>История создания Фонда</h3>
+        <p>Фонд был основан в 2020 году с целью поддержки молодых предпринимателей и стартапов. Мы верим, что каждая идея заслуживает шанса быть услышанной.</p>
+    </main>
+    <footer>
+        &copy; 2025 Фонд Владислава Славянского Брата
+    </footer>
+</body>
+</html>

@@ -1,0 +1,172 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Проекты - Фонд Владислава Славянского Брата</title>
+    <style>
+        /* Используем тот же стиль, что и в index.html */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+        header img.logo {
+            width: 50px;
+            height: 50px;
+            border-radius: 5px;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+        nav {
+            display: flex;
+            justify-content: space-around;
+            background-color: #444;
+            padding: 10px;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        main {
+            padding: 20px;
+            text-align: center;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        /* Стили для кнопок проектов */
+        .project-grid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        .project-button {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-decoration: none;
+            color: #333;
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 20px;
+            width: 150px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .project-button:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+        }
+        .project-button img {
+            width: 80px;
+            height: 80px;
+            margin-bottom: 10px;
+        }
+        .project-button span {
+            font-size: 16px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <!-- Шапка с логотипом -->
+    <header>
+        <a href="index.html">
+            <img src="images/logo.png" alt="Логотип Фонда Владислава Славянского Брата" class="logo">
+        </a>
+        <h1>Фонд Владислава Славянского Брата</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Главная</a>
+        <a href="about.html">О нас</a>
+        <a href="projects.html">Проекты</a>
+        <a href="contacts.html">Контакты</a>
+    </nav>
+
+    <main>
+        <h2>Наши проекты</h2>
+        <div class="project-grid">
+            <!-- Проект VSB-SBN -->
+            <a href="project_vsb_sbn.html" class="project-button">
+                <img src="images/vsb-sbn-icon.png" alt="Иконка VSB-SBN">
+                <span>VSB-SBN</span>
+            </a>
+            <!-- Добавьте другие проекты по аналогии -->
+            <a href="#" class="project-button">
+                <img src="images/startup-icon.png" alt="Иконка стартапа">
+                <span>Startup Hub</span>
+            </a>
+            <a href="#" class="project-button">
+                <img src="images/mentor-icon.png" alt="Иконка наставничества">
+                <span>Mentor Connect</span>
+            </a>
+            <!-- Новые проекты -->
+
+            <a href="#" class="project-button">
+
+                <img src="innovation-icon.png" alt="Иконка инноваций">
+
+                <span>Innovation Lab</span>
+
+            </a>
+
+            <a href="#" class="project-button">
+
+                <img src="education-icon.png" alt="Иконка образования">
+
+                <span>EduBoost</span>
+
+            </a>
+
+            <a href="#" class="project-button">
+
+                <img src="community-icon.png" alt="Иконка сообщества">
+
+                <span>Community Hub</span>
+
+            </a>
+            <a href="#" class="project-button">
+
+                <img src="education-icon.png" alt="Иконка образования">
+
+                <span>EduBoost</span>
+
+            </a>
+
+            <a href="#" class="project-button">
+
+                <img src="community-icon.png" alt="Иконка сообщества">
+
+                <span>Community Hub</span>
+
+            </a>
+        </div>
+    </main>
+    <footer>
+        &copy; 2023 Фонд Владислава Славянского Брата
+    </footer>
+</body>
+</html>
